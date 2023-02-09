@@ -28,6 +28,8 @@ To learn about my accomplishments and see if we are a good fit.
 
 ## Credits
 
+Logos: https://brand.linkedin.com/downloads, https://github.com/logos
+
 ## License
 
 This project is under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
