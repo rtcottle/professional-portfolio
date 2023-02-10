@@ -1,0 +1,15 @@
+:root {
+  --background-color: #272e23c5;
+  --accent-color: #3a673fb9;
+  --heading-color: #4c2a0adb;
+  --dark-text: #3f3f3f0d;
+  --light-text: #e4e4e4e4;
+}
+
+#navbar {
+  background-color: var(--heading-color);
+}
+
+.nav-item {
+  color: var(--light-text);
+}
