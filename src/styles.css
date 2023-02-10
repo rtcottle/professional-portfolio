@@ -1,9 +1,9 @@
 :root {
-  --background-color: #272e23c5;
+  --background-color: #0d0f0cbd;
   --accent-color: #3a673fb9;
   --heading-color: #4c2a0adb;
-  --dark-text: #3f3f3f0d;
-  --light-text: #e4e4e4e4;
+  --dark: #3f3f3f0d;
+  --light: #e4e4e4e4;
 }
 
 #navbar {
@@ -11,5 +11,25 @@
 }
 
 .nav-item {
-  color: var(--light-text);
+  /* background-color: var(--accent-color); */
+  border-radius: 5%;
+}
+
+.nav-link {
+  color: var(--light);
+}
+
+.background {
+  background-color: var(--background-color);
+  color: var(--light);
+}
+
+.icon {
+  width: 50;
+  height: 50;
+}
+
+.card {
+  background-color: var(--light);
+  color: var(--heading-color);
 }

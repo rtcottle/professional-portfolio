@@ -5,7 +5,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
       {/* This is the collapasable nav bar  */}
-      <div class="collapse" id="navbarToggleExternalContent">
+      {/* <div class="collapse " id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
           <h5 class="text-white h4">Collapsed content</h5>
           <span class="text-muted">Toggleable via the navbar brand.</span>
@@ -25,9 +25,9 @@ function NavTabs({ currentPage, handlePageChange }) {
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
-      </nav>
+      </nav> */}
       <ul
-        className="nav nav-tabs navbar sticky-top justify-content-start"
+        className="nav nav-tabs navbar px-3 sticky-top justify-content-start"
         id="navbar"
       >
         <li className="nav-item">
