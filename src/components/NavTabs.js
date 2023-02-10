@@ -4,6 +4,7 @@ import '../styles.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
+      {/* This is the collapasable nav bar  */}
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
           <h5 class="text-white h4">Collapsed content</h5>
@@ -26,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </div>
       </nav>
       <ul
-        className="nav nav-tabs navbar sticky-top justify-content-end"
+        className="nav nav-tabs navbar sticky-top justify-content-start"
         id="navbar"
       >
         <li className="nav-item">
