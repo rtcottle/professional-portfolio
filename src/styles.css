@@ -32,4 +32,12 @@
 .card {
   background-color: var(--light);
   color: var(--heading-color);
+  opacity: 70%;
+}
+
+.card:hover {
+}
+
+a:hover {
+  color: var(--heading-color);
 }
