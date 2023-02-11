@@ -35,7 +35,8 @@
   opacity: 70%;
 }
 
-.card:hover {
+.button {
+  background-color: lightgreen;
 }
 
 a:hover {
