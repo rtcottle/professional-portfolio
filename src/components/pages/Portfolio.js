@@ -14,7 +14,7 @@ export default function Blog() {
         <div class="row justify-content-around">
           <div class="col-md card m-2">
             <a href="https://github.com/rtcottle/notes">
-              <img src={Notes}></img>Notes App
+              {/* <img src={Notes}></img>Notes App */}
             </a>
           </div>
           <div class="col-md card m-2">
