@@ -39,6 +39,17 @@
   background-color: lightgreen;
 }
 
+.screenshot {
+  height: 20rem;
+  width: 35rem;
+  opacity: 70%;
+  border-radius: 2% 0 2% 0;
+}
+
+.screenshot:hover {
+  opacity: 100%;
+}
+
 a:hover {
   color: var(--heading-color);
 }
