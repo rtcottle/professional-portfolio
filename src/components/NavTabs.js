@@ -4,7 +4,7 @@ import '../styles.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-      {/* This is the collapasable nav bar  */}
+      {/*TODO: in future, add this collapasable nav bar  */}
       {/* <div class="collapse " id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
           <h5 class="text-white h4">Collapsed content</h5>
@@ -34,6 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
+            id="about"
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >
             About
@@ -43,6 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
+            id="portfolio"
             className={
               currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
             }
@@ -54,6 +56,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
+            id="contact"
             className={
               currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
             }

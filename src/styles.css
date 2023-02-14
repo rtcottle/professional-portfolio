@@ -1,27 +1,32 @@
 :root {
-  --background-color: #0d0f0cbd;
-  --accent-color: #3a673fb9;
-  --heading-color: #4c2a0adb;
+  --background-color: #777777;
+  --accent-color: #268230;
+  --heading-color: #361e07;
   --dark: #3f3f3f0d;
-  --light: #e4e4e4e4;
 }
 
 #navbar {
   background-color: var(--heading-color);
 }
 
-.nav-item {
-  /* background-color: var(--accent-color); */
-  border-radius: 5%;
+#about,
+#contact,
+#portfolio {
+  color: var(--heading-color);
 }
 
-.nav-link {
-  color: var(--light);
+.active {
+  color: blue;
+}
+
+.nav-item {
+  background-color: var(--accent-color);
+  border-radius: 5%;
 }
 
 .background {
   background-color: var(--background-color);
-  color: var(--light);
+  color: var(--heading-color);
 }
 
 .icon {
@@ -30,20 +35,21 @@
 }
 
 .card {
-  background-color: var(--light);
+  background-color: var(--heading-color);
   color: var(--heading-color);
   opacity: 70%;
 }
 
 .button {
-  background-color: lightgreen;
+  background-color: rgb(145, 96, 47);
+  border-radius: 3px;
 }
 
 .screenshot {
   height: 20rem;
   width: 35rem;
   opacity: 70%;
-  border-radius: 2% 0 2% 0;
+  border-radius: 3px;
 }
 
 .screenshot:hover {
@@ -52,4 +58,10 @@
 
 a:hover {
   color: var(--heading-color);
+}
+
+input,
+textarea {
+  border-radius: 3px;
+  border: none;
 }
