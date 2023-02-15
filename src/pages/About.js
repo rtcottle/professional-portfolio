@@ -22,9 +22,6 @@ export default function About() {
           Understanding the big picture helps me think more creatively and find
           solutions faster
         </li>
-        <li>
-          
-        </li>
       </ul>
     </div>
   );
