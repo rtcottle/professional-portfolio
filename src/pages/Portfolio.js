@@ -1,12 +1,12 @@
 import React from 'react';
-import Ecommerce from '../../images/e-commerce.png';
-import Notes from '../../images/notes-app.png';
-import Park from '../../images/parkhopper.png';
-import Readme from '../../images/readme.png';
-import Stock from '../../images/stock-app.png';
-import Text from '../../images/text-editor.png';
+import Ecommerce from './images/e-commerce.png';
+import Notes from './images/notes-app.png';
+import Park from './images/parkhopper.png';
+import Readme from './images/readme.png';
+import Stock from './images/stock-app.png';
+import Text from './images/text-editor.png';
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <div className="px-3">
       <h1>Portfolio</h1>
@@ -30,7 +30,11 @@ export default function Blog() {
             href="https://github.com/rtcottle/text-editor-pwa"
             class="col-md m-2"
           >
-            <img src={Text} alt="Text Editor PWA" class="screenshot"></img>
+            <img
+              src="./images/text-editor.png"
+              alt="Text Editor PWA"
+              class="screenshot"
+            ></img>
           </a>
         </div>
         <div class="row">
