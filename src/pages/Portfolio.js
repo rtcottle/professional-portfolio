@@ -1,10 +1,10 @@
 import React from 'react';
-const Ecommerce = './images/e-commerce.png';
-const Notes = './images/notes-app.png';
-const Park = './images/parkhopper.png';
-const Readme = './images/readme.png';
-const Stock = './images/stock-app.png';
-const Text = './images/text-editor.png';
+import Ecommerce from '../images/e-commerce.png';
+import Notes from '../images/notes-app.png';
+import Park from '../images/parkhopper.png';
+import Readme from '../images/readme.png';
+import Stock from '../images/stock-app.png';
+import Text from '../images/text-editor.png';
 
 export default function Portfolio() {
   return (

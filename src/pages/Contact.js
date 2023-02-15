@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 // import helper functions to validate email and name
 import { checkName, validateEmail, checkMessage } from '../utils/helpers';
-// import './styles.css';
+import '../styles.css';
 
 function Form() {
   const form = useRef();
