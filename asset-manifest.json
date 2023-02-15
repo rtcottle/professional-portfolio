@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/professional-portfolio/static/css/main.8e29e77b.css",
+    "main.js": "/professional-portfolio/static/js/main.26ca441f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/professional-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/parkhopper.png": "/professional-portfolio/static/media/parkhopper.ee945b48805e14a4a861.png",
+    "static/media/readme.png": "/professional-portfolio/static/media/readme.d944113d526e2642255c.png",
+    "static/media/e-commerce.png": "/professional-portfolio/static/media/e-commerce.2ab228e5ddcf4c7b75e1.png",
+    "static/media/stock-app.png": "/professional-portfolio/static/media/stock-app.285922e4c6c57b5e2af8.png",
+    "static/media/notes-app.png": "/professional-portfolio/static/media/notes-app.e0b7aa9a940f7e2cab04.png",
+    "static/media/text-editor.png": "/professional-portfolio/static/media/text-editor.135b93b740fcf845bb07.png",
+    "index.html": "/professional-portfolio/index.html",
+    "main.8e29e77b.css.map": "/professional-portfolio/static/css/main.8e29e77b.css.map",
+    "main.26ca441f.js.map": "/professional-portfolio/static/js/main.26ca441f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/professional-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e29e77b.css",
+    "static/js/main.26ca441f.js"
+  ]
+}
