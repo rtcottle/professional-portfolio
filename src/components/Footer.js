@@ -1,4 +1,4 @@
-import React from '.react';
+import React from 'react';
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
         <img src="./icons/github.png" alt="GitHub" />
       </a>
       <a href="https://www.linkedin.com/in/ryan-cottle/" class="icon">
-        <img src="./icons/linkedin-full.png" alt="LinkedIn" />
+        <img src="./icons/linkedin.png" alt="LinkedIn" />
       </a>
     </footer>
   );
