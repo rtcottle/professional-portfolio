@@ -9,7 +9,7 @@ import Text from '../images/text-editor.png';
 export default function Portfolio() {
   return (
     <div className="px-3">
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       <div class="container">
         <div class="row justify-content-around">
           <a href="https://github.com/rtcottle/notes" class="col-md m-2">

@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div className="px-3">
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <p>
         I am a full-stack web developer that is curious about learning how web
         systems work. I find joy in seeing my efforts function in their designed
