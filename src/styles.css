@@ -1,8 +1,8 @@
 :root {
-  --background-color: #777777;
-  --accent-color: #268230;
-  --heading-color: #361e07;
-  --dark: #3f3f3f0d;
+  --background-color: #151515db;
+  --accent-color: #600a02;
+  --heading-color: #0b7b75;
+  --light: #d8d7d7e9;
 }
 
 #navbar {
@@ -13,6 +13,14 @@
 #contact,
 #portfolio,
 #resume {
+  color: var(--light);
+}
+
+/* the color of the words for the active tab  */
+#about.active,
+#contact.active,
+#portfolio.active,
+#resume.active {
   color: var(--heading-color);
 }
 
@@ -24,6 +32,7 @@
   color: var(--heading-color);
   font-size: small;
 }
+
 #email:hover {
   color: var(--accent-color);
 }
@@ -38,10 +47,6 @@
   opacity: 100%;
 }
 
-.active {
-  color: blue;
-}
-
 .nav-item {
   background-color: var(--accent-color);
   border-radius: 5%;
@@ -49,7 +54,7 @@
 
 .background {
   background-color: var(--background-color);
-  color: var(--heading-color);
+  color: var(--light);
 }
 
 .card {
