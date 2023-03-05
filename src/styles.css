@@ -34,7 +34,7 @@
 }
 
 #email:hover {
-  color: var(--accent-color);
+  color: var(--light);
 }
 
 .icon {
