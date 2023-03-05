@@ -11,7 +11,8 @@
 
 #about,
 #contact,
-#portfolio {
+#portfolio,
+#resume {
   color: var(--heading-color);
 }
 
