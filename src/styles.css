@@ -16,6 +16,18 @@
   color: var(--heading-color);
 }
 
+#name {
+  text-decoration: underline;
+}
+
+#email {
+  color: var(--heading-color);
+  font-size: small;
+}
+#email:hover {
+  color: var(--accent-color);
+}
+
 .icon {
   width: auto;
   height: 40px;
