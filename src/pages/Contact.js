@@ -73,7 +73,7 @@ function Form() {
 
   return (
     <div className="px-3">
-      <h1>Contact Me</h1>
+      <h2>Contact Me</h2>
       <p>Hello {name}</p>
       {/* this is the email form */}
       <form className="form px-3 my-3" ref={form} onSubmit={handleFormSubmit}>
