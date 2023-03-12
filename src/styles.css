@@ -1,0 +1,90 @@
+:root {
+  --background-color: #151515db;
+  --accent-color: #600a02;
+  --heading-color: #0b7b75;
+  --light: #d8d7d7e9;
+}
+
+#navbar {
+  background-color: var(--heading-color);
+}
+
+#about,
+#contact,
+#portfolio,
+#resume {
+  color: var(--light);
+}
+
+/* the color of the words for the active tab  */
+#about.active,
+#contact.active,
+#portfolio.active,
+#resume.active {
+  color: var(--heading-color);
+}
+
+#name {
+  text-decoration: underline;
+}
+
+#email {
+  color: var(--heading-color);
+  font-size: small;
+}
+
+#email:hover {
+  color: var(--light);
+}
+
+.icon {
+  width: auto;
+  height: 40px;
+  opacity: 45%;
+}
+
+.icon:hover {
+  opacity: 100%;
+}
+
+.nav-item {
+  background-color: var(--accent-color);
+  border-radius: 5%;
+}
+
+.background {
+  background-color: var(--background-color);
+  color: var(--light);
+}
+
+.card {
+  background-color: var(--heading-color);
+  color: var(--heading-color);
+  opacity: 70%;
+}
+
+.button {
+  background-color: rgb(145, 96, 47);
+  border-radius: 3px;
+}
+
+.screenshot {
+  height: 20rem;
+  width: 35rem;
+  opacity: 70%;
+  border-radius: 3px;
+}
+
+.screenshot:hover {
+  opacity: 100%;
+}
+
+a:hover {
+  color: var(--heading-color);
+}
+
+input,
+textarea {
+  border-radius: 3px;
+  border: none;
+}
