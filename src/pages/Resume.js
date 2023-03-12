@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
+import ResumePDF from '../images/resume.pdf';
 
 export default function Resume() {
   const [numPages, setNumPages] = useState(null);
@@ -15,10 +16,7 @@ export default function Resume() {
         <h2>Resume</h2>
       </div>
       <div>
-        <Document
-          file="../images/resume.pdf"
-          onLoadSuccess={onDocumentLoadSuccess}
-        >
+        <Document file={ResumePDF} onLoadSuccess={onDocumentLoadSuccess}>
           <Page pageNumber={pageNumber} />
         </Document>
         <p>
