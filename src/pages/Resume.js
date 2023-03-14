@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
 import ResumePDF from '../images/resume.pdf';
-import { pdfjs } from 'react-pdf';
-pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
+// import { pdfjs } from 'react-pdf';
+// pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
 
 export default function Resume() {
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
@@ -19,11 +18,13 @@ export default function Resume() {
       </div>
       <div>
         <Document file={ResumePDF} onLoadSuccess={onDocumentLoadSuccess}>
-          <Page pageNumber={pageNumber} />
+          {Array.from(new Array(numPages), (el, index) => (
+            <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+          ))}
         </Document>
-        <p>
+        {/* <p>
           Page {pageNumber} of {numPages}
-        </p>
+        </p> */}
       </div>
     </div>
   );
