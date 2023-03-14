@@ -31,6 +31,8 @@ To learn about my accomplishments and see if we are a good fit.
 
 Logos: https://brand.linkedin.com/downloads, https://github.com/logos
 React pdf: https://www.npmjs.com/package/react-pdf
+Bootstrap: https://getbootstrap.com/
+Bootstrap icons: https://icons.getbootstrap.com/
 
 ## License
 
