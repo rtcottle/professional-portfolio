@@ -25,10 +25,12 @@ N/A
 ## Usage
 
 To learn about my accomplishments and see if we are a good fit.
+![Screenshot](screenshot.png)
 
 ## Credits
 
 Logos: https://brand.linkedin.com/downloads, https://github.com/logos
+React pdf: https://www.npmjs.com/package/react-pdf
 
 ## License
 
