@@ -22,8 +22,8 @@ export default function Resume() {
             <Page
               key={`page_${index + 1}`}
               pageNumber={index + 1}
-              renderTextLayer="false"
-              renderAnnotationLayer="false"
+              renderTextLayer={false}
+              renderAnnotationLayer={false}
               className="px-3 py-1"
             />
           ))}
