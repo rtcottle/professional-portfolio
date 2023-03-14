@@ -19,7 +19,13 @@ export default function Resume() {
       <div>
         <Document file={ResumePDF} onLoadSuccess={onDocumentLoadSuccess}>
           {Array.from(new Array(numPages), (el, index) => (
-            <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+            <Page
+              key={`page_${index + 1}`}
+              pageNumber={index + 1}
+              renderTextLayer="false"
+              renderAnnotationLayer="false"
+              className="px-3 py-1"
+            />
           ))}
         </Document>
         {/* <p>
