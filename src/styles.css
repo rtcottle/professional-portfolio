@@ -79,11 +79,6 @@
   opacity: 100%;
 }
 
-.textLayer,
-.annotationLayer {
-  display: none;
-}
-
 a:hover {
   color: var(--heading-color);
 }
