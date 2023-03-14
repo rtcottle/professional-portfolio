@@ -7,7 +7,7 @@ const LINKEDIN = process.env.REACT_APP_LINKEDIN;
 
 export default function Footer() {
   return (
-    <footer class="fixed-bottom p-3 text-center">
+    <footer class="fixed-bottom p-3 text-end">
       <a href={GITHUB}>
         <img src={Github} alt="GitHub" class="icon m-3" />
       </a>
