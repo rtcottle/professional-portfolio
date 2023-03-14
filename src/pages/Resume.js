@@ -16,7 +16,12 @@ export default function Resume() {
       <div className="px-3">
         <h2>
           Resume {/* download button */}
-          <button type="button" className="btn btn-outline-secondary">
+          <button
+            type="button"
+            className="btn btn-outline-secondary"
+            href="../images/resume.pdf"
+            download="../images/resume.pdf"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -41,6 +46,7 @@ export default function Resume() {
               renderTextLayer={false}
               renderAnnotationLayer={false}
               className="px-3 py-1"
+              width={1000}
             />
           ))}
         </Document>
