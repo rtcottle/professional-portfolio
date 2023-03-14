@@ -15,17 +15,28 @@ export default function Portfolio() {
           <a href="https://github.com/rtcottle/notes" class="col-md m-2">
             <img src={Notes} alt="Note app" class="screenshot"></img>
           </a>
-          <div>
+          <div class="col-md m-2">
             <p>
-              Link: 
+              <b>Link: </b>
               <a href="https://notes-taker-json-app.herokuapp.com/">
                 https://notes-taker-json-app.herokuapp.com/
               </a>
               <br />
-              GitHub: 
+              <b>GitHub: </b>
               <a href="https://github.com/rtcottle/notes">
                 https://github.com/rtcottle/notes
               </a>
+              <br />
+              <span>
+                <b>Summary: </b>This application is a full-stack application and
+                notes taking app that allows the user to add and remove notes
+                for quick reference.
+              </span>
+              <br />
+              <span>
+                <b>Technologies: </b> Express.js, Express Router, JavaScript,
+                HTML, CSS,
+              </span>
             </p>
           </div>
         </div>
