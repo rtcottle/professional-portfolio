@@ -15,10 +15,23 @@ export default function Portfolio() {
           <a href="https://github.com/rtcottle/notes" class="col-md m-2">
             <img src={Notes} alt="Note app" class="screenshot"></img>
           </a>
-          <a href="https://github.com/rtcottle/Park-Hopper" class="col-md m-2">
-            <img src={Park} alt="ParkHopper" class="screenshot"></img>
-          </a>
+          <div>
+            <p>
+              Link: 
+              <a href="https://notes-taker-json-app.herokuapp.com/">
+                https://notes-taker-json-app.herokuapp.com/
+              </a>
+              <br />
+              GitHub: 
+              <a href="https://github.com/rtcottle/notes">
+                https://github.com/rtcottle/notes
+              </a>
+            </p>
+          </div>
         </div>
+        <a href="https://github.com/rtcottle/Park-Hopper" class="col-md m-2">
+          <img src={Park} alt="ParkHopper" class="screenshot"></img>
+        </a>
         <div class="row">
           <a
             href="https://github.com/rtcottle/readme-generator"
