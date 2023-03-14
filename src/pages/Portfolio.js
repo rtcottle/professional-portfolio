@@ -10,12 +10,12 @@ export default function Portfolio() {
   return (
     <div className="px-3">
       <h2>Portfolio</h2>
-      <div class="container">
-        <div class="row justify-content-around">
-          <a href="https://github.com/rtcottle/notes" class="col-md m-2">
-            <img src={Notes} alt="Note app" class="screenshot"></img>
+      <div className="container">
+        <div className="row justify-content-around">
+          <a href="https://github.com/rtcottle/notes" className="col-md m-2">
+            <img src={Notes} alt="Note app" className="screenshot"></img>
           </a>
-          <div class="col-md m-2">
+          <div className="col-md m-2">
             <p>
               <b>Link: </b>
               <a href="https://notes-taker-json-app.herokuapp.com/">
@@ -40,8 +40,8 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md m-2">
+        <div className="row">
+          <div className="col-md m-2">
             <p>
               <b>Link: </b>
               <a href="https://notes-taker-json-app.herokuapp.com/">
@@ -65,40 +65,51 @@ export default function Portfolio() {
               </span>
             </p>
           </div>
-          <a href="https://github.com/rtcottle/Park-Hopper" class="col-md m-2">
-            <img src={Park} alt="ParkHopper" class="screenshot"></img>
+          <a
+            href="https://github.com/rtcottle/Park-Hopper"
+            className="col-md m-2"
+          >
+            <img src={Park} alt="ParkHopper" className="screenshot"></img>
           </a>
         </div>
-        <div class="row">
+        <div className="row">
           <a
             href="https://github.com/rtcottle/readme-generator"
-            class="col-md m-2"
+            className="col-md m-2"
           >
-            <img src={Readme} alt="Readme Generator" class="screenshot"></img>
+            <img
+              src={Readme}
+              alt="Readme Generator"
+              className="screenshot"
+            ></img>
           </a>
           <a
             href="https://github.com/rtcottle/text-editor-pwa"
-            class="col-md m-2"
+            className="col-md m-2"
           >
-            <img src={Text} alt="Text Editor PWA" class="screenshot"></img>
+            <img src={Text} alt="Text Editor PWA" className="screenshot"></img>
           </a>
         </div>
-        <div class="row">
+        <div className="row">
           <a
             href="https://github.com/rtcottle/StockArticleComparison"
-            class="col-md m-2"
+            className="col-md m-2"
           >
-            <img src={Stock} alt="Stock Article App" class="screenshot"></img>
+            <img
+              src={Stock}
+              alt="Stock Article App"
+              className="screenshot"
+            ></img>
           </a>
           <a
             href="https://github.com/rtcottle/ecommerce-backend"
-            class="col-md m-2"
+            className="col-md m-2"
           >
             {/*TODO: fix this image  */}
             <img
               src={Ecommerce}
               alt="E-commerce Backend App"
-              class="screenshot"
+              className="screenshot"
             ></img>
           </a>
         </div>
