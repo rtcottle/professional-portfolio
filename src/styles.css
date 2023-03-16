@@ -28,6 +28,18 @@
   text-decoration: underline;
 }
 
+#name {
+  color: var(--light);
+}
+
+#name:hover {
+  color: var(--heading-color);
+}
+
+#name:active {
+  color: var(--accent-color);
+}
+
 #email {
   color: var(--heading-color);
   font-size: small;
@@ -35,6 +47,10 @@
 
 #email:hover {
   color: var(--light);
+}
+
+#email:active {
+  color: var(--accent-color);
 }
 
 .icon {
