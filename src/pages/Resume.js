@@ -35,7 +35,7 @@ export default function Resume() {
         </h2>
       </div>
       {/* pdf resume  */}
-      <div>
+      {/* <div>
         <Document file={ResumePDF} onLoadSuccess={onDocumentLoadSuccess}>
           {Array.from(new Array(numPages), (el, index) => (
             <Page
@@ -48,10 +48,7 @@ export default function Resume() {
             />
           ))}
         </Document>
-        {/* <p>
-          Page {pageNumber} of {numPages}
-        </p> */}
-      </div>
+      </div> */}
     </div>
   );
 }
