@@ -43,6 +43,12 @@ export default function Portfolio() {
         </div>
         {/* second row of picture and description */}
         <div className="row">
+          <a
+            href="https://github.com/rtcottle/Park-Hopper"
+            className="col-md m-2"
+          >
+            <img src={Park} alt="ParkHopper" className="screenshot"></img>
+          </a>
           <div className="col-md m-2">
             <p>
               <b>Link: </b>
@@ -68,12 +74,6 @@ export default function Portfolio() {
               </span>
             </p>
           </div>
-          <a
-            href="https://github.com/rtcottle/Park-Hopper"
-            className="col-md m-2"
-          >
-            <img src={Park} alt="ParkHopper" className="screenshot"></img>
-          </a>
         </div>
         {/* third row of picture and description */}
         <div className="row justify-content-around">
@@ -114,6 +114,12 @@ export default function Portfolio() {
         </div>
         {/* fourth row of picture and description */}
         <div className="row">
+          <a
+            href="https://github.com/rtcottle/text-editor-pwa"
+            className="col-md m-2"
+          >
+            <img src={Text} alt="Text Editor PWA" className="screenshot"></img>
+          </a>
           <div className="col-md m-2">
             <p>
               <b>Link: </b>
@@ -137,12 +143,6 @@ export default function Portfolio() {
               </span>
             </p>
           </div>
-          <a
-            href="https://github.com/rtcottle/text-editor-pwa"
-            className="col-md m-2"
-          >
-            <img src={Text} alt="Text Editor PWA" className="screenshot"></img>
-          </a>
         </div>
         {/* fifth row of picture and description */}
         <div className="row justify-content-around">
@@ -183,6 +183,12 @@ export default function Portfolio() {
         </div>
         {/* sixth row of picture and description */}
         <div className="row">
+          <a
+            href="https://github.com/rtcottle/ecommerce-backend"
+            className="col-md m-2"
+          >
+            <img src={Ecommerce} alt="Ecommerce" className="screenshot"></img>
+          </a>
           <div className="col-md m-2">
             <p>
               <b>Video Link: </b>
@@ -205,12 +211,6 @@ export default function Portfolio() {
               </span>
             </p>
           </div>
-          <a
-            href="https://github.com/rtcottle/ecommerce-backend"
-            className="col-md m-2"
-          >
-            <img src={Ecommerce} alt="Ecommerce" className="screenshot"></img>
-          </a>
         </div>
       </div>
     </div>

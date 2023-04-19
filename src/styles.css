@@ -53,14 +53,14 @@
   color: var(--accent-color);
 }
 
-#code {
+/* #code {
   background-image: url('./images/code.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right top;
   height: 200px;
   width: auto;
-}
+} */
 
 .icon {
   width: auto;
